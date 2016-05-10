@@ -49,9 +49,6 @@ extern "C" long _declspec(dllexport) _stdcall AverageNonNull(int nNumArgs, Formu
 // this sample takes a variable number of values and returns the first non-null entry
 extern "C" long _declspec(dllexport) _stdcall Coalesce(int nNumArgs, FormulaAddInData *pArgs, FormulaAddInData *pReturnValue)
 {
-    double dRet = 0.0;
-    double dCnt = 0.0;
-
     for (int x = 0; x<nNumArgs; ++x)
     {
         if (pArgs[x].isNull == 0) {
