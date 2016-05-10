@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file along with its dll needs to be installed to ...InstallDir...\RuntimeData\FormulaAddIn to run. -->
+<FormulaAddIn>
+  <Function>
+    <Name>AverageNonNull</Name>
+    <NumParams variable="true">1</NumParams>
+    <Category>Math</Category>
+    <InsertText>AverageNonNull(n1, ...)</InsertText>
+    <Description>Averages the non-null entries in the given list.</Description>
+    <Dll>
+      <Name>FormulaAddIns.dll</Name>
+      <EntryPoint>AverageNonNull</EntryPoint>
+    </Dll>
+  </Function>
+</FormulaAddIn>
