@@ -1,4 +1,4 @@
-﻿Build started 5/10/2016 12:00:25 AM.
+﻿Build started 5/10/2016 12:13:13 AM.
      1>Project "C:\Users\john__000\OneDrive\myGit\Alteryx\Source\FormulaAddIns\FormulaAddIns.vcxproj" on node 2 (Rebuild target(s)).
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D FORMULAADDINS_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt FormulaAddIns.cpp stdafx.cpp
@@ -15,4 +15,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:01.30
+Time Elapsed 00:00:01.49
