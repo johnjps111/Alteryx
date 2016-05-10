@@ -12,4 +12,15 @@
       <EntryPoint>AverageNonNull</EntryPoint>
     </Dll>
   </Function>
+  <Function>
+    <Name>Coalesce</Name>
+    <NumParams variable="true">1</NumParams>
+    <Category>Specialized</Category>
+    <InsertText>Coalesce(n1, ...)</InsertText>
+    <Description>Returns the first non-null entry, or null if all entries are null.</Description>
+    <Dll>
+      <Name>FormulaAddIns.dll</Name>
+      <EntryPoint>Coalesce</EntryPoint>
+    </Dll>
+  </Function>
 </FormulaAddIn>
