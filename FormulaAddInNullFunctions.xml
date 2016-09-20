@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file along with its dll needs to be installed to ...InstallDir...\RuntimeData\FormulaAddIn to run. -->
+<FormulaAddIn>
+  <Function>
+    <Name>AvgNonNull</Name>
+    <NumParams variable="true">1</NumParams>
+    <Category>Math</Category>
+    <InsertText>AvgNonNull(n1, ...)</InsertText>
+    <Description>Averages a list of numbers, including only non-nulls in the average.</Description>
+    <Dll>
+      <Name>FormulaAddInNullFunctions.dll</Name>
+      <EntryPoint>AvgNonNull</EntryPoint>
+    </Dll>
+  </Function>
+  <Function>
+    <Name>CountNonNull</Name>
+    <NumParams variable="true">1</NumParams>
+    <Category>Specialized</Category>
+    <InsertText>CountNonNull(n1, ...)</InsertText>
+    <Description>Determines how many of n1, n2,... are not null.</Description>
+    <Dll>
+      <Name>FormulaAddInNullFunctions.dll</Name>
+      <EntryPoint>CountNonNull</EntryPoint>
+    </Dll>
+  </Function>
+  <Function>
+    <Name>Coalesce</Name>
+    <NumParams variable="true">1</NumParams>
+    <Category>Specialized</Category>
+    <InsertText>Coalesce(n1, ...)</InsertText>
+    <Description>Returns first non-null entry in the function arguments.</Description>
+    <Dll>
+      <Name>FormulaAddInNullFunctions.dll</Name>
+      <EntryPoint>Coalesce</EntryPoint>
+    </Dll>
+  </Function>
+</FormulaAddIn>

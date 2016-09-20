@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file along with its dll needs to be installed to ...InstallDir...\RuntimeData\FormulaAddIn to run. -->
+<FormulaAddIn>
+  <Function>
+    <Name>ShiftChars</Name>
+    <NumParams variable="false">2</NumParams>
+    <Category>Specialized</Category>
+    <InsertText>ShiftChars(String, ShiftCount)</InsertText>
+    <Description>Shifts all characters in String up by ShiftCount.</Description>
+    <Dll>
+      <Name>FormulaAddInShiftChars.dll</Name>
+      <EntryPoint>ShiftChars</EntryPoint>
+    </Dll>
+  </Function>
+  <Function>
+    <Name>ShiftCharsAlpha</Name>
+    <NumParams variable="false">2</NumParams>
+    <Category>Specialized</Category>
+    <InsertText>ShiftCharsAlpha(String, ShiftCount)</InsertText>
+    <Description>Shifts all alpha characters in String up by ShiftCount; wrapping from Z to A or z to a.</Description>
+    <Dll>
+      <Name>FormulaAddInShiftChars.dll</Name>
+      <EntryPoint>ShiftCharsAlpha</EntryPoint>
+    </Dll>
+  </Function>
+  <Function>
+    <Name>ShiftCharsAlphaNum</Name>
+    <NumParams variable="false">2</NumParams>
+    <Category>Specialized</Category>
+    <InsertText>ShiftCharsAlphaNum(String, ShiftCount)</InsertText>
+    <Description>Shifts all alphanumeric characters in String up by ShiftCount; wrapping from Z to A or z to a or 9 to 0.</Description>
+    <Dll>
+      <Name>FormulaAddInShiftChars.dll</Name>
+      <EntryPoint>ShiftCharsAlphaNum</EntryPoint>
+    </Dll>
+  </Function>
+  <Function>
+    <Name>ShiftCharsNumeric</Name>
+    <NumParams variable="false">2</NumParams>
+    <Category>Specialized</Category>
+    <InsertText>ShiftCharsNumeric(String, ShiftCount)</InsertText>
+    <Description>Shifts all numeric characters in String up by ShiftCount; wrapping from 9 to 0.</Description>
+    <Dll>
+      <Name>FormulaAddInShiftChars.dll</Name>
+      <EntryPoint>ShiftCharsNumeric</EntryPoint>
+    </Dll>
+  </Function>
+</FormulaAddIn>
